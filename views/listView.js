@@ -9,7 +9,7 @@ export default function ListView({ loggedInUsername }) {
   const [editSong, setEditSong] = useState(null);
   const [deleteID, setDeleteID] = useState(null);
   const [showAddComponent, setShowAddComponent] = useState(false);
-
+  //for effect
   useEffect(() => {
     fetch("http://localhost/index.php/song/list")
       .then((response) => response.json())
