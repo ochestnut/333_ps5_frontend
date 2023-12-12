@@ -1,6 +1,8 @@
 # 333_ps5_frontend
 includes the frontend unit tests for the login and register views
 
+Problem 3
+
 For setup, the configurations used were nearly if not exactly the same as those supplied in the tutorial, but I will give them anyway...
 
 babel.config.js
@@ -100,7 +102,10 @@ I believe these are all the necessary config files in order to run these tests..
 
 When I ran the tests with this configuration, I got two tests passing with 6 tests checked and passed...
 
-** I initially kept these frontend tests in a repo that included the whole project, and didnt realize that the actual files in the src were not actually in the repo, it was just an empty shell of a folder named repo. That is why I made this repo and everything came in within one push... Although, most of it was error checking what I wrote as a template and then committing once I finished the full test anyway.
+** 
+I initially kept these frontend tests in a repo that included the whole project, and didnt realize that the actual files in the src were not actually in the repo, it was just an empty shell of a folder named repo. That is why I made this repo and everything came in within one push... Although, most of it was error checking what I wrote as a template and then committing once I finished the full test anyway.
 
-**Problem 6 
+**
+Problem 6 
+
 In terms using using AI, I was able to use it to fact check my work and find the small easy to see but also easy to miss type of errors. In terms of getting it to write a test case, I tried to give it a lot of information regarding my code and the prompt for the test and even some notes from the tutorial, and although it was unsuccessful, it gave an outline of the test and with error checking and working through little issues I was able to get them to work...
