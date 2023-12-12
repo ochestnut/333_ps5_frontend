@@ -1,0 +1,300 @@
+/*LOGIN STYLING */
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 40px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.login-entries {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.login-entries label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.login-form-control {
+  width: 100%;
+  padding: 7px 10px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.login-submit-button {
+  background-color: #007BFF;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.2s ease;
+}
+
+.login-submit-button:hover {
+  background-color: #0056b3;
+}
+
+.login-register-button {
+  background-color: #6c757d;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.2s ease;
+}
+
+.login-register-button:hover {
+  background-color: #4e555b;
+}
+
+
+/* REGISTER STYLINGS*/
+
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 50px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  /* Slightly different background color for differentiation */
+}
+
+.register-entries {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.register-entries label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.register-form-control {
+  width: 100%;
+  padding: 8px 12px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-submit_button {
+  background-color: #007BFF;
+  /* A different button color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.register-submit_button:hover {
+  background-color: #0056b3;
+  /* A different hover effect */
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/*ADD STYLING*/
+
+.add-song-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 380px;
+  margin: 0 auto;
+  margin-top: 40px;
+  box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.add-song-entries {
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.add-song-entries label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.add-song-form-control {
+  width: 100%;
+  padding: 8px 10px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.add-song-submit-button {
+  background-color: #FF9800;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.2s ease;
+}
+
+.add-song-submit-button:hover {
+  background-color: #e68a00;
+}
+
+/*DELETE STYLING*/
+
+.delete-song-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 360px;
+  margin: 0 auto;
+  margin-top: 40px;
+  box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.delete-song-entries {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.delete-song-entries label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.delete-song-form-control {
+  width: 100%;
+  padding: 8px 10px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.delete-song-submit-button {
+  background-color: #f44336;
+  /* Red to indicate deletion */
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.2s ease;
+}
+
+.delete-song-submit-button:hover {
+  background-color: #d32f2f;
+}
+
+/*EDIT STYLING*/
+
+.edit-song-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 370px;
+  margin: 0 auto;
+  margin-top: 40px;
+  box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.edit-song-entries {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.edit-song-entries label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.edit-song-form-control {
+  width: 100%;
+  padding: 8px 10px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.edit-song-submit-button {
+  background-color: #ffa726;
+  /* Orange to indicate editing */
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.2s ease;
+}
+
+.edit-song-submit-button:hover {
+  background-color: #ff9100;
+}
+
+.song-list-container {
+  padding: 24px;
+}
+
+.list-header {
+  font-size: 18px;
+  color: green;
+  text-align: center;
+}
+
+.song-list {
+  list-style: none;
+  padding: 0;
+}
+
+.song-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.song-item p {
+  margin-right: 10px;
+}
+
+.edit-delete-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.edit-delete-buttons button {
+  margin-right: 10px;
+}
