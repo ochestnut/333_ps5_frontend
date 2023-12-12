@@ -98,4 +98,6 @@ package.json
 
 I believe these are all the necessary config files in order to run these tests... Of course having a react app and adding these to the src of that app is required as well, and these config files I kept in the root of the project.
 
+When I ran the tests with this configuration, I got two tests passing with 6 tests checked and passed...
+
 ** I initially kept these frontend tests in a repo that included the whole project, and didnt realize that the actual files in the src were not actually in the repo, it was just an empty shell of a folder named repo. That is why I made this repo and everything came in within one push... Although, most of it was error checking what I wrote as a template and then committing once I finished the full test anyway.
